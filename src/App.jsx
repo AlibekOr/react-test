@@ -6,6 +6,7 @@ import Props from './components/props/Props'
 import UseRef from './components/hooks/UseRef'
 import Email from './components/hooks/Email'
 import Scroll from './components/hooks/Scroll'
+import UseMemos from './components/hooks/UseMemos'
 const App = () => {
     return (
         <div className='con'>
@@ -15,7 +16,8 @@ const App = () => {
             <Props />
             <UseRef />
             <Email />
-            <Scroll />
+            {/* <Scroll /> */}
+            <UseMemos />
         </div>
     )
 }
