@@ -7,17 +7,35 @@ import UseRef from './components/hooks/UseRef'
 import Email from './components/hooks/Email'
 import Scroll from './components/hooks/Scroll'
 import UseMemos from './components/hooks/UseMemos'
+import Memo from './components/useMemo/Memo'
+import UseColbeck from './components/hooks/UseColbeck'
+import Callback1 from './components/useMemo/Callback1'
+import Callback2 from './components/useMemo/Callback2'
+import Callback3 from './components/useMemo/Callback3'
+import Callback4 from './components/useMemo/Callback4'
+import Memo2 from './components/useMemo/Memo2'
+import Memo3 from './components/useMemo/Memo3'
+import Memo4 from './components/useMemo/Memo4'
 const App = () => {
     return (
         <div className='con'>
-            <UseStates />
+            {/* <UseStates />
             <States />
             <EffectOne />
             <Props />
             <UseRef />
-            <Email />
+            <Email /> */}
             {/* <Scroll /> */}
-            <UseMemos />
+            {/* <UseMemos /> */}
+            {/* <UseColbeck /> */}
+            <Callback1 />
+            <Callback2 />
+            <Callback3 />
+            <Callback4 />
+            <Memo />
+            <Memo2 />
+            <Memo3 />
+            <Memo4 />
         </div>
     )
 }
