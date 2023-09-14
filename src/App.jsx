@@ -17,6 +17,7 @@ import Memo2 from './components/useMemo/Memo2'
 import Memo3 from './components/useMemo/Memo3'
 import Memo4 from './components/useMemo/Memo4'
 import Callback5 from './components/useMemo/Callback5'
+import Memo5 from './components/useMemo/Memo5'
 const App = () => {
     return (
         <div className='con'>
@@ -38,6 +39,7 @@ const App = () => {
             <Memo3 />
             <Memo4 />
             <Callback5 />
+            <Memo5 />
         </div>
     )
 }
