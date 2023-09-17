@@ -20,6 +20,7 @@ const Memo6 = () => {
     return (
         <>
             <div>
+                <div>Count</div>
                 <div> {num} </div>
                 <button onClick={() => setNum((i) => i + 1)}>+</button>
                 <button onClick={() => setNum((i) => i - 1)}>-</button>
