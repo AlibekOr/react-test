@@ -1,5 +1,7 @@
 import React from 'react'
 import UseReduser from './components/useReduser/UseReduser'
+import Reduse from './components/useReduser/Reduse'
+import Reduse2 from './components/useReduser/Reduse2'
 const App = () => {
     return (
         <div className='con'>
@@ -24,6 +26,8 @@ const App = () => {
             {/* <Callback5 /> */}
             {/* <Memo6 />
             <Memo7 /> */}
+            <Reduse />
+            <Reduse2 />
         </div>
     )
 }
