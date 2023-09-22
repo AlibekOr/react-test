@@ -22,6 +22,10 @@ const redus2 = (state, action) => {
         case "ADD":
             return { ...state, items: [...state.items, action.paylode] }
         case "REMOVE":
+            return {
+                ...state,
+                items: state.items.filter((item) => (item.id !== action.paylode)),
+            }
         default: return state
     }
 }
@@ -46,8 +50,7 @@ const Reduse2 = () => {
 
     }
     const removeClick = (e) => {
-        dispatch({ type: 'REMOVE', })
-        console.log(e.currentTarget);
+        dispatch({ type: 'REMOVE', paylode: e.id })
     }
     return (
         <div>
@@ -55,10 +58,10 @@ const Reduse2 = () => {
                 <div key={key}>
                     <span>{todo.id}.</span>
                     <span>{todo.name}</span>
-                    <button onClick={removeClick(todo.id)}>remove</button>
+                    <button onClick={() => removeClick(todo)}>remove</button>
                 </div>
             ))}
-            <input name='id' value={newState.id} type="number" placeholder='0' onChange={handelChange} />
+            <input name='id' value={newState.id} type="number" placeholder='' onChange={handelChange} />
             <input name='name' value={newState.name} type="text" placeholder='name' onChange={handelChange} />
             <button onClick={addClick}>add</button>
         </div>

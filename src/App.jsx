@@ -1,11 +1,13 @@
 import React from 'react'
-import UseReduser from './components/useReduser/UseReduser'
 import Reduse from './components/useReduser/Reduse'
 import Reduse2 from './components/useReduser/Reduse2'
+import Reduse3 from './components/useReduser/Reduse3'
+import Reduse4 from './components/useReduser/Reduse4'
+import Reduse5 from './components/useReduser/Reduse5'
 const App = () => {
     return (
         <div className='con'>
-            <UseReduser />
+            {/* <UseReduser /> */}
             {/* <UseStates />
             <States />
             <EffectOne />
@@ -28,6 +30,9 @@ const App = () => {
             <Memo7 /> */}
             <Reduse />
             <Reduse2 />
+            <Reduse4 />
+            {/* <Reduse5 /> */}
+            {/* <Reduse3 /> */}
         </div>
     )
 }

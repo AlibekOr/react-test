@@ -3,7 +3,7 @@ const initialState = [0]
 const redus = (state, action) => {
     switch (action.type) {
         case "INCREMENT":
-            return state + 1
+            return Number(state) + 1
         case "DECREMENT":
             return state - 1
         default: return state
