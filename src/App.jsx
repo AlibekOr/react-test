@@ -31,7 +31,7 @@ const App = () => {
             <Reduse />
             <Reduse2 />
             <Reduse4 />
-            {/* <Reduse5 /> */}
+            <Reduse5 />
             {/* <Reduse3 /> */}
         </div>
     )
