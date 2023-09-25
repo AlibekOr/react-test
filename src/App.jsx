@@ -15,8 +15,6 @@ const App = () => {
                     <Route path="/" element={<Layot />}>
                         <Route index element={<Home />} />
                         <Route path="blogs" element={<Blogs />} />
-                        <Route path="blogs/:newInfo" element={<NewInfo />} />
-                        <Route path="blogs/:info" element={<Info />} />
                         <Route path="contact" element={<Contact />} />
                         <Route path="*" element={<ErrorPage />} />
                     </Route>
