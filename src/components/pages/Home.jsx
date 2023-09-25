@@ -1,8 +1,11 @@
 import React from 'react'
+import { NavLink } from "react-router-dom"
 const Home = () => {
   return (
     <h4>
-      home
+      <NavLink to={'/contact'}>Call senter</NavLink>
+      <br />
+      <NavLink to={'/profil'}>Profil</NavLink>
     </h4>
   )
 }

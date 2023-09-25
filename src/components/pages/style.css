@@ -1,4 +1,10 @@
-.nav {
-    background-color: rgb(77, 147, 228);
-    width: 200px;
+.divBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+    background-color: rgb(131, 131, 241);
 }

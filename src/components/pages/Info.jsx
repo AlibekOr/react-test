@@ -1,9 +1,13 @@
 import React from 'react'
-
+import { useParams, NavLink } from "react-router-dom"
 const Info = () => {
+    const { id } = useParams()
     return (
         <div>
-            info
+            <div>
+                hello user {id}
+            </div>
+            <NavLink to={'/blogs'}>back</NavLink >
         </div>
     )
 }

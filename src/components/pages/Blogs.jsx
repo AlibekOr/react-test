@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { NavLink } from "react-router-dom"
+import "./style.css"
 const Blogs = () => {
     return (
-        <div>
-            Blogs
+        <div className='divBlock'>
+            <NavLink to={'/blogs/1'}>Vasiy</NavLink>
+            <NavLink to={'/blogs/2'}>jek</NavLink>
+            <NavLink to={'/blogs/3'}>alisa</NavLink>
+            <NavLink to={'/blogs/4'}>bob</NavLink>
+            <NavLink to={'/blogs/5'}>jek</NavLink>
         </div>
     )
 }
