@@ -1,10 +1,17 @@
 import React from 'react'
-
+import { RightOutlined } from "@ant-design/icons"
+import { NavLink } from "react-router-dom"
 const Contact = () => {
     return (
-        <div>
-            contact
-        </div>
+        <>
+            <div>
+                <NavLink to={`/`}>home</NavLink> <RightOutlined /> contact      
+            </div>
+            <div>
+                contact
+            </div>
+
+        </>
     )
 }
 
